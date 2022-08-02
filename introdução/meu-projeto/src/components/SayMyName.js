@@ -6,7 +6,7 @@ function SayMyName(props){
     return(
         <div className={styles.frase}>
             <p>Fala ai {props.nome}</p>
-            <h1>Corno vei</h1>
+            <h1>teste css</h1>
         </div>
     ) 
 }
