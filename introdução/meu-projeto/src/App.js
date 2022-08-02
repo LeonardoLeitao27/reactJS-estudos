@@ -1,6 +1,8 @@
 import './App.css'
 import HelloWorld from './components/helloWorld'
 import SayMyName from './components/SayMyName';
+import List from './components/list';
+
 function App() {
 
   return (
@@ -8,6 +10,7 @@ function App() {
 
       <HelloWorld/>
       <SayMyName nome="Leonardo"/>
+      <List/>
     </div>
     
   );

@@ -6,3 +6,11 @@ body {
 h1{
   color: brown;
 }
+
+li{
+  list-style-type: none;
+}
+
+ul{
+  padding: 0px;
+}
