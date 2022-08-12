@@ -7,8 +7,10 @@ function list(){
         <>
             <h1>Lista</h1>
             <ul>
-                <Item marca='ferrari' />
-                <Item marca='Fiat' />
+                <Item marca='ferrari' lancamento={1985} />
+                <Item marca='Fiat' lancamento={1985} />
+                <Item marca='peugeot'  />
+                <Item />
             </ul>
         </>
     )

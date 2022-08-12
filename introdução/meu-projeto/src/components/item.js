@@ -1,12 +1,27 @@
 //Usado na aula de fragment
+//usado na aula de props e props avançado
 
-function item(props){
+import PropTypes from 'prop-types'
+//usado para tipagem, fornecido pelo próprio react
+
+
+function item({marca, lancamento}){
     return(
         <>
-        <p>Marca:</p>
-        <li>{props.marca}</li>
+        
+        <li>{marca} - {lancamento}</li>
         </>
     )
+}
+
+item.protoType = {
+    marca: PropTypes.string.isRequired,
+    lancamento: PropTypes.number.isRequired,
+}
+
+item.defaultProps = {
+    marca: "Erro ao carregar marcar",
+    lancamento: 0,
 }
 
 export default item
